@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world-map</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+        .header{
+            height: 70px;
+            width: 100%;
+            color: rgb(195, 225, 240);
+            background-color: #080C16;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+         .worldmap {
+            width: 100%;
+            height: 100%;
+           
+            background-repeat: no-repeat;
+            background-color: #080C16;
+           
+            display: flex;
+            justify-content: center;
+            align-items: start;    
+         }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        Your Country?
+    </div>
+    <div class="worldmap">
+       
+            <img src="worldmap1.jpg" usemap="#image_map">
+        
+            <map name="image_map">
+            <area alt="World-Map" title="India-Map" href="indiamap.html" coords="722,144 716,153 723,163 722,167 720,170 717,173 713,177 704,184 704,186 709,191 719,199 724,201 729,226 734,231 740,229 740,214 749,210 756,200 764,194 766,191 763,187 763,180 774,180 774,183 777,179 782,174 790,174 784,179 782,187 782,193 780,197 773,193 773,179 734,173 " shape="polygon">
+            </map>
+           
+    </div>
+</body>
+</html> 

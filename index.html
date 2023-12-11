@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hbd</title>
+    
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("sky.avif");
+    background-size: cover;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-image: url("sky.avif");
+    color: rgb(195, 225, 240);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+   
+.earth{
+    width: 300px;
+    height: 300px;
+    background-image: url("worldmap1.jpg");
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: 700px 100%;
+    box-shadow: inset 30px 0px 50px #000;
+         animation: rotate 30s infinite linear;     
+
+}
+
+@keyframes rotate{
+    0%{
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+    
+}
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+    .planet1{
+    width: 150px;
+    height: 150px;
+    background-image: url("saturn.webp");
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    background-size: 700px 100%;
+    box-shadow: inset 30px 0px 50px #000;
+         animation: rotate1 20s infinite linear;     
+
+}
+
+@keyframes rotate1{
+    0%{
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+    
+}
+.planet2{
+    width: 80px;
+    height: 80px;
+    background-image: url("pink.jpg");
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background-size: 700px 100%;
+    box-shadow: inset 30px 0px 50px #000;
+         animation: rotate2 40s infinite linear;     
+
+}
+
+@keyframes rotate2{
+    0%{
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+    
+}
+
+.planet3{
+    width: 70px;
+    height: 70px;
+    background-image: url("neptune.jpg");
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    background-size: 700px 100%;
+    box-shadow: inset 30px 0px 50px #000;
+         animation: rotate3 15s infinite linear;     
+
+}
+
+@keyframes rotate3{
+    0%{
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+    
+}
+
+.planet4{
+    width: 50px;
+    height: 50px;
+    background-image: url("jupiter.jpg");
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    background-size: 700px 100%;
+    box-shadow: inset 30px 0px 50px #000;
+         animation: rotate4 40s infinite linear;     
+
+}
+
+@keyframes rotate4{
+    0%{
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+    
+}
+        
+        
+        
+
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        Choose Your Planet...
+    </div>
+        <a href="worldmap.html"> <div class="earth"></div> </a>     
+        <div class="planet1"></div>
+        <div class="planet2"></div>   
+        <div class="planet3"></div>
+        <div class="planet4"></div>
+</body>
+</html>

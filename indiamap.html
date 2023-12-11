@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India-Map</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+        .header{
+            height: 70px;
+            width: 100%;
+            color: rgb(195, 225, 240);
+            background-color: #080C16;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+}
+        .india-map{
+            width: 100%;
+            height: 100%;
+           
+            background-repeat: no-repeat;
+            background-color: #080C16;
+           
+            display: flex;
+            justify-content: center;
+            align-items:start;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        Your State?
+    </div>
+    <div class="india-map">
+        <img src="indiamap3.jpg" usemap="#image_map">
+        <map name="image_map">
+         <area alt="India-Map" title="MP-Map" href="Mpmap.html" coords="319,192 293,215 307,217 300,231 300,242 291,242 279,247 275,226 268,229 261,247 261,272 270,284 284,289 295,295 307,291 360,286 374,263 388,256 385,242 392,242 399,238 395,229 388,226 379,224 374,222 365,222 360,222 358,215 353,215 349,215 351,222 346,224 337,215 335,233 342,235 330,222 339,229 339,238 330,240 325,219 325,208 335,194 328,192 " shape="polygon">
+        </map>
+
+    </div>
+</body>
+
+</html>
